@@ -171,8 +171,9 @@ a:hover{
 .profile-pic{
   width: 100%;
   height: auto;
+  max-width: 400px;
   border-radius: 50%;
-  object-fit:cover;
+  object-fit: cover;
   object-position: top;
 }
 
@@ -181,7 +182,7 @@ a:hover{
   height: 400px;
   width: 400px;
   margin: 0 auto;
-
+ aspect-ratio: 1/1; 
 }
 
 .profile-pic :hover {
